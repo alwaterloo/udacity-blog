@@ -1,0 +1,193 @@
+/* This file has everything and ONLY what is connected to typography of the website and it's pages - fonts, colors, styling of the text like opacity, links, buttons, etc. */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1,
+h2 {
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 40px;
+    color: #003333;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+a {
+    color: inherit;
+}
+
+blockquote {
+    font-size: 1.7em;
+    color: #033;
+    text-align: center;
+    padding: 1em;
+}
+
+.readmore {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+.blog-nav-link {
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.rubric {
+    color: #991A00;
+}
+
+.sidebar-link {
+    color: #fff;
+}
+
+.author-date {
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    opacity: 0.5;
+}
+
+.article-figcaption {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    border-bottom: 1px solid;
+}
+
+.main-nav {
+    font-weight: bold;
+}
+
+.insta-link {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.post-preview-link {
+    text-decoration: none;
+}
+
+.footer {
+    color: #fff;
+}
+
+.footer-link {
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.215em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.btn-more {
+    width: 241px;
+    height: 56px;
+    background-color: #033;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 27px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.btn-more:hover {
+    background-color: #991a00;
+}
+
+.insta-link {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background-color: #991a00;
+    width: 85px;
+    height: 85px;
+    text-align: center;    
+    border-radius: 50%;
+    line-height: 85px;
+}
+
+.insta-link:hover {
+    background-color: #033;
+}
+
+.fab,
+.fas {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.fab:hover,
+.fas:hover {
+    color: #033;
+}
+
+.similar-posts-a:hover {
+    outline: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Styling specific elements for the Post page */
+.author-p {
+    opacity: 0.5; 
+}
+
+.post-h2 {
+    text-align: left;
+}

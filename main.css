@@ -1,0 +1,135 @@
+@import url("normalize.css"); /* normalize */
+@import url("all.min.css"); /* add fontawesome icons */
+@import url("typography.css"); /* basic font styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}    
+
+.padding-site { /* consistent padding */
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.clearfix:after { /* clear for the elements */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+
+.header {
+    grid-area: hd;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 50px;
+}
+
+.main-nav-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-nav-li {
+    width: 20%;
+    height: 40px;
+    text-align: center;
+}
+
+.main-nav-link-active {
+    border-bottom: 3px solid black;
+}
+
+/* Sub-sections of each page of the site */
+
+.section {
+    grid-area: title;
+    background-color: #033;
+}
+
+.page-content {
+    grid-area: cntnt;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    grid-area: sidebar;
+}
+
+.sidebar-rubrics {
+    flex: 1;
+    height: auto;
+    background-color: #991A00;
+}
+
+.sidebar-authors {
+    flex: 1;
+    background-color: #991A00;
+}
+
+.sidebar-rubrics,
+.sidebar-authors {
+    padding: 1em;
+}
+
+.sidebar-h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebar-ul {
+    text-align: center;
+    line-height: 26px;
+}
+
+/* Instagram featured */
+
+.insta {
+    grid-area: insta;
+    position: relative;
+}
+
+.insta-img {
+    width: 25%;
+    border: 0;
+}
+
+.insta-link {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    transform: rotate(5deg);
+    box-shadow: 16px 12px 39px -16px rgba(0,0,0,0.8);
+}
+
+/* Footer */
+
+.footer {
+    grid-area: ft;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.footer-links {
+    flex-basis: 100%;
+}
+
+.fab {
+    line-height: 2em;
+}
